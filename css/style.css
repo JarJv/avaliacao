@@ -1,0 +1,125 @@
+.nav_config{
+    background-color: #2E8B57;
+}
+
+.nav-link{
+    color: 	#8FBC8F;
+}
+
+.nav-link:hover{
+    color: 	#2F4F4F;
+}
+
+.nav-link:focus{
+    color: 	#2F4F4F;
+}
+
+.nav_icon{
+    border-radius: 70%;
+}
+
+.nav-item{
+    margin-left: 20%;
+    font-size: large;
+}
+
+.navbar-nav{
+    margin-left: 30%;
+}
+
+.card{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.button_card{
+    width: 100%;
+    background-color: #2E8B57;
+    border: none;
+}
+
+.button_card:hover{
+    width: 100%;
+    background-color: #3c493c;
+    border: none;
+}
+
+.img_galeria{
+    width: 100%;
+    margin-top: 15%;
+    animation-name: galeria_close;
+    animation-duration: 1s;
+}
+
+.img_galeria:hover{
+    width: 150%;
+    position: sticky;
+    margin-right: 15%;
+    animation-name: galeria;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+}
+
+.icon{
+    width: 20%;
+    margin-left: 40%;
+    animation-name: icone_close;
+    animation-duration: 1s;
+}
+
+.icon:hover{
+    animation-name: icone;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+}
+
+footer{
+    padding: 0.5%;
+    margin-top: 5%;
+    width: 100%;
+    background-color: #2E8B57;
+    position: static;
+}
+
+.foot_list{
+    font-size: large;
+    color: #8FBC8F;
+    display: inline-block;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.foot_list:hover{
+    font-size: large;
+    color: #3c493c;
+    display: inline-block;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+@keyframes icone{
+    0% {width: 20%;}
+    100% {width: 30%;}
+}
+
+@keyframes icone_close{
+    0% {width: 30%;}
+    100% {width: 20%;}
+}
+
+@keyframes galeria{
+    0% {width: 100%;}
+    100% {width: 150%;}
+}
+
+@keyframes galeria_close{
+    0% {width: 150%;}
+    100% {width: 100%;}
+}
